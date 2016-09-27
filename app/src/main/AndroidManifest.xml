@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.looorielovbb.touchimageview">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name="me.looorielovbb.touchimageview.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="me.looorielovbb.touchimageview.SingleTouchImageViewActivity" />
+        <activity android:name="me.looorielovbb.touchimageview.MirroringExampleActivity" />
+        <activity android:name="me.looorielovbb.touchimageview.ViewPagerExampleActivity" />
+        <activity android:name="me.looorielovbb.touchimageview.SwitchImageExampleActivity" />
+        <activity android:name="me.looorielovbb.touchimageview.SwitchScaleTypeExampleActivity" />
+    </application>
+</manifest>
